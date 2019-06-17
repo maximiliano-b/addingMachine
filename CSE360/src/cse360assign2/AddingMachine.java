@@ -65,16 +65,7 @@ public class AddingMachine {
 		total = 0;
 		transaction = "";
 	}
-	
-	public static void main(String args[]) {
-		AddingMachine calc = new AddingMachine();
-		
-		calc.add(4);
-		calc.subtract(2);
-		calc.add(5);
-		System.out.println(calc);
 
-	}
 }
 
 
